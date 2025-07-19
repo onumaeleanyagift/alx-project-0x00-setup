@@ -9,35 +9,23 @@ const Landing: React.FC = () => {
 
       {/* Small Buttons */}
       <div className="flex gap-4">
-        <Button title="Small - sm" className="text-sm" styles="rounded-sm" />
-        <Button title="Small - md" className="text-sm" styles="rounded-md" />
-        <Button
-          title="Small - full"
-          className="text-sm"
-          styles="rounded-full"
-        />
+        <Button title="Small - sm" className="text-sm rounded-sm" />
+        <Button title="Small - md" className="text-sm rounded-md" />
+        <Button title="Small - full" className="text-sm rounded-lg" />
       </div>
 
       {/* Medium Buttons */}
       <div className="flex gap-4">
-        <Button title="Medium - sm" className="text-base" styles="rounded-sm" />
-        <Button title="Medium - md" className="text-base" styles="rounded-md" />
-        <Button
-          title="Medium - full"
-          className="text-base"
-          styles="rounded-full"
-        />
+        <Button title="Medium - sm" className="text-base rounded-sm" />
+        <Button title="Medium - md" className="text-base rounded-md" />
+        <Button title="Medium - full" className="text-base rounded-lg" />
       </div>
 
       {/* Large Buttons */}
       <div className="flex gap-4">
-        <Button title="Large - sm" className="text-lg" styles="rounded-sm" />
-        <Button title="Large - md" className="text-lg" styles="rounded-md" />
-        <Button
-          title="Large - full"
-          className="text-lg"
-          styles="rounded-full"
-        />
+        <Button title="Large - sm" className="text-lg rounded-sm" />
+        <Button title="Large - md" className="text-lg rounded-md" />
+        <Button title="Large - full" className="text-lg rounded-lg" />
       </div>
     </div>
   );
