@@ -1,6 +1,6 @@
 import Image from "next/image";
-import HOUSE_IMAGE from "@/public/assets/house.jpg";
-import STAR_IMAGE from "@/public/assets/star.jpg";
+import HOUSE_IMAGE from "@/public/assets/images/house.jpg";
+import STAR_IMAGE from "@/public/assets/images/star.jpg";
 import React from "react";
 import Pill from "./Pill";
 
